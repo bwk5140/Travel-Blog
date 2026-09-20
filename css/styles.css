@@ -8,6 +8,13 @@ main{
     text-align: center;
     color: darkolivegreen;
 }
+main ul{
+    list-style: none;
+}
+main ul > li{
+    display: inline-block;
+    gap: 15px;
+}
 footer{
     margin-top: 25px;
     text-align: center;
@@ -52,10 +59,10 @@ hr{
 }
 .ImageContainter{
     display: flex;
+    padding: 20px;
     justify-content: center;
     max-width: 75%;
     flex-wrap: wrap;
-    gap: 15px;
     border-radius: 15px;
     margin: auto;
 }
@@ -74,7 +81,7 @@ img{
     color:darkolivegreen;
     border-radius: 15px;
     margin-top: 45px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .references a{
