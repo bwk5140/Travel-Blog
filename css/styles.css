@@ -3,9 +3,10 @@ header{
     color:darkolivegreen;
 }
 main{
-    padding-top: 18%;
+    padding-top: 20px;
+    margin:5% 0 0 0;
     text-align: center;
-    position: relative;
+    color: darkolivegreen;
 }
 footer{
     margin-top: 25px;
@@ -26,7 +27,8 @@ hr{
 }
 .hero{
     width: 100%;
-    position:fixed;
+    position:inherit;
+    height: 300px;
     top: 0px;
     left:0px;
 }
@@ -72,6 +74,7 @@ img{
     color:darkolivegreen;
     border-radius: 15px;
     margin-top: 45px;
+    padding: 20px;
 }
 
 .references a{
