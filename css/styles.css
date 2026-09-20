@@ -1,0 +1,78 @@
+header{
+    text-align: center;
+    color:darkolivegreen;
+}
+main{
+    padding-top: 18%;
+    text-align: center;
+    position: relative;
+}
+footer{
+    margin-top: 25px;
+    text-align: center;
+    color:white;
+    background: darkolivegreen;
+    width: 100%;
+    position:fixed;
+    bottom: 0px;
+    left:0px;
+    height: 30px;
+}
+hr{
+    border: none;
+    height: 0.8px;
+    color: darkolivegreen;
+    background-color: darkolivegreen;
+}
+.hero{
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    left:0px;
+}
+.hero-header{
+    position: absolute;
+    z-index:1000;
+    left: 45%;
+    font-weight: bold;
+}
+.hero-img{
+    min-width: 100%;
+    background-size:cover;
+    border-radius: 0px;
+}
+.hero button{
+    position: absolute;
+    color:darkolivegreen;
+    background:transparent;
+    border: black thin;
+    border-radius: 25px;
+}
+.ImageContainter{
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-radius: 15px;
+    margin: auto;
+}
+.img-card{
+    border-radius: 15px;
+    background: transparent;
+    margin: auto;
+}
+img{
+    border-radius: 10px;
+    max-width: 350px;
+    max-height: 400px;
+}
+.references{
+    text-align: center;
+    color:darkolivegreen;
+    border-radius: 15px;
+}
+
+.references a{
+    color: darkolivegreen;
+}
